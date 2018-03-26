@@ -12,7 +12,7 @@ import java.util.Map;
  *
  */
 
-class PrefUtil {
+public class PrefUtil {
     private static final PrefUtil prefUtil = new PrefUtil();
     private static SharedPreferences sharedPreferences;
     private static SharedPreferences.Editor editor;
