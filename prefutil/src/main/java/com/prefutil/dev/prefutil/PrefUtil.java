@@ -24,7 +24,7 @@ public class PrefUtil {
 
     private PrefUtil() {}
 
-    public static PrefUtil Imit(Context context) {
+    public static PrefUtil PrefUtil(Context context) {
         if (sharedPreferences == null) {
             sharedPreferences = context.getSharedPreferences(context.getPackageName(), PRIVATE_MODE);
             editor = sharedPreferences.edit();
