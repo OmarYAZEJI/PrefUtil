@@ -1,2 +1,2 @@
 # PrefUtil
-Android Library for working with shared preference in Android Studio.
+Android Library for working with shared preferences in Android Studio.
