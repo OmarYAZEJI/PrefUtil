@@ -1,10 +1,6 @@
 package com.prefutil.dev.prefutil;
-
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.util.Log;
-
-import java.lang.reflect.Field;
 import java.util.Map;
 
 /**
@@ -97,4 +93,6 @@ public class PrefUtil {
     public Map<String, ?> getAll() {
         return sharedPreferences.getAll();
     }
+
+
 }
