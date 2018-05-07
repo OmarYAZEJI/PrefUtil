@@ -53,4 +53,11 @@ prefUtil.getLong(Key);    /*For Long value */
 
 ```
 
-
+```java
+ /**
+ *  prefUtil.getString("Name")          return TEST
+ *  prefUtil.getBoolean("IsLogged")     return true
+ *  prefUtil.getInt("Number")           return 12345
+ *
+ */                      
+```
