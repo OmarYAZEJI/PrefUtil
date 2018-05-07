@@ -61,3 +61,9 @@ prefUtil.getLong(Key);    /*For Long value */
  *
  */                      
 ```
+
+### Remove Value
+```java
+prefUtil.removeValue(Key);                
+```
+
