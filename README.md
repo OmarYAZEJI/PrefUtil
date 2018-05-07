@@ -25,7 +25,8 @@ initialize the PrefUtil  inside your application class :
 ## Saving Values
 ```java
  prefUtil.save(Key,Value);
-
+```
+```java
 
  /**
  *  prefUtil.save("Name","TEST") for string value
@@ -33,7 +34,5 @@ initialize the PrefUtil  inside your application class :
  *  prefUtil.save("IsLogged",true) for boolean
  *
  */
- 
-
-                          
+                      
 ```
