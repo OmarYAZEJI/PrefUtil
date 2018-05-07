@@ -17,10 +17,7 @@ initialize the PrefUtil  inside your application class :
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         final PrefUtil prefUtil = PrefUtil.Init(this);
-
-
     }
 ```
 
