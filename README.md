@@ -24,5 +24,5 @@ initialize the PrefUtil  inside your application class :
 
 ## Saving Values
 ```java
- prefUtil.save(Key,Value);
+ prefUtil.save(Key,Value); //prefUtil.save("Name","TEST")
 ```
