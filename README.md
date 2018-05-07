@@ -1,4 +1,3 @@
-![download](https://user-images.githubusercontent.com/17234785/39691710-16d53ba6-51e7-11e8-9bc6-4b1920d5de47.png)
 
 
 # PrefUtil
