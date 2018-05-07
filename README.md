@@ -71,3 +71,8 @@ prefUtil.removeValue(Key);
  * prefUtil.removeValue("Name");   
  */  
 ```
+
+### Clear All Values
+```java
+prefUtil.clearALl();                
+```
