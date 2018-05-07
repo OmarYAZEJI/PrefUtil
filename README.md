@@ -41,11 +41,16 @@ initialize the PrefUtil  inside your application class :
 
 ## Getting Values
 ```java
-prefUtil.getString(Key);
-prefUtil.getBoolean(Key);
-prefUtil.getInt(Key);
-prefUtil.getFloat(Key);
-prefUtil.getLong(Key);
+prefUtil.getString(Key);  /**For String value */
+
+prefUtil.getBoolean(Key);  /**For Boolean value */
+
+prefUtil.getInt(Key);  /**For Int value */
+
+prefUtil.getFloat(Key); /**For Float value */
+
+prefUtil.getLong(Key); /**For Long value */
+
 ```
 
 
