@@ -26,7 +26,7 @@ initialize the PrefUtil  inside your application class :
 ```
 
 
-## Saving Values
+### Saving Values
 ```java
  prefUtil.save(Key,Value);
 ```
@@ -39,7 +39,7 @@ initialize the PrefUtil  inside your application class :
  */                      
 ```
 
-## Getting Values
+### Getting Values
 ```java
 prefUtil.getString(Key);  /**For String value */
 
