@@ -5,7 +5,7 @@ A tiny Android library  for managing  shared preferences.
 
 # Usage
 
- Add dependency:
+ Add dependency to the build.gradle file in the app module:
 
 ```java
 implementation 'tr.org.omary.util:prefutil:0.0.1'
