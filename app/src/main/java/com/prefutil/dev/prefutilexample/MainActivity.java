@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              
+
                 prefUtil.save("Name",editText.getText().toString());
                 textView.setText(prefUtil.getString("Name"));
             }

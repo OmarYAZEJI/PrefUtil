@@ -30,67 +30,67 @@ public class PrefUtil {
 
     /*ToDo: Save values to a shared preference*/
 
-    public void save(String key, String value) {
+    public static void save(String key, String value) {
         editor.putString(key, value);
         editor.commit();
     }
 
-    public void save(String key, boolean value) {
+    public static void save(String key, boolean value) {
         editor.putBoolean(key, value);
         editor.commit();
     }
 
-    public void save(String key, int value) {
+    public  static void save(String key, int value) {
         editor.putInt(key, value);
         editor.commit();
     }
 
-    public void save(String key, long value) {
+    public static void save(String key, long value) {
         editor.putLong(key, value);
         editor.commit();
     }
 
-    public void save(String key, float value) {
+    public static void save(String key, float value) {
         editor.putFloat(key, value);
         editor.commit();
     }
 
     /*ToDo: Get values from a shared preference */
 
-    public String getString(String key) {
+    public static String getString(String key) {
         return sharedPreferences.getString(key, "");
     }
 
-    public boolean getBoolean(String key) {
+    public static boolean getBoolean(String key) {
         return sharedPreferences.getBoolean(key, false);
     }
 
-    public int getInt(String key) {
+    public static int getInt(String key) {
         return sharedPreferences.getInt(key, 0);
     }
 
-    public Float getFloat(String key) {
+    public static Float getFloat(String key) {
         return sharedPreferences.getFloat(key, 0);
     }
 
-    public Long getLong(String key) {
+    public static Long getLong(String key) {
         return sharedPreferences.getLong(key, 0);
     }
 
     /*ToDo: Remove value from a shared preference*/
 
-    public void removeValue(String key) {
+    public static void removeValue(String key) {
         editor.remove(key);
         editor.commit();
     }
 
     /*ToDo: Remove all values from a shared preference*/
-    public void clearALl() {
+    public static  void clearALl() {
         editor.clear();
         editor.commit();
     }
 
-    public Map<String, ?> getAll() {
+    public static Map<String, ?> getAll() {
         return sharedPreferences.getAll();
     }
 
