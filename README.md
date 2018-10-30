@@ -43,25 +43,17 @@ initialize the PrefUtil  inside your application class :
 
 ### Getting Values
 ```java
-prefUtil.getString(Key);    /*For String value */
+prefUtil.getString(Key);    /*For String value */   OUTPUT: TEST
 
-prefUtil.getBoolean(Key);  /*For Boolean value */
+prefUtil.getBoolean(Key);  /*For Boolean value */   OUTPUT: true
 
-prefUtil.getInt(Key);      /*For Int value */
+prefUtil.getInt(Key);      /*For Int value */    OUTPUT: 12345
 
-prefUtil.getFloat(Key);    /*For Float value */
+prefUtil.getFloat(Key);    /*For Float value */  OUTPUT: 12345
 
-prefUtil.getLong(Key);    /*For Long value */
+prefUtil.getLong(Key);    /*For Long value */   OUTPUT: 12345
 
-```
 
-```java
- /**
- *  prefUtil.getString("Name")          return TEST
- *  prefUtil.getBoolean("IsLogged")     return true
- *  prefUtil.getInt("Number")           return 12345
- *
- */                      
 ```
 
 ### Remove Value
