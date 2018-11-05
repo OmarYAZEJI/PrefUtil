@@ -1,7 +1,7 @@
 
 
 # PrefUtil
-A tiny Android library  for managing  shared preferences.
+ Android library  for managing  shared preferences.
 
 # Usage
 
